@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_secondary"
+    app:startDestination="@id/jetpack">
+
+    <fragment
+        android:id="@+id/jetpack"
+        android:name="com.navigation.JetpackFragment"
+        tools:layout="@layout/fragment_web_view"/>
+
+    <fragment
+        android:id="@+id/navigation"
+        android:name="com.navigation.NavigationFragment"
+        tools:layout="@layout/fragment_navigation"/>
+        <action
+            android:id="@+id/next_screen"
+            app:destination="@id/navigation_action"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+        />
+
+    <fragment
+        android:id="@+id/more"
+        android:name="com.navigation.MoreFragment"
+        tools:layout="@layout/fragment_web_view"/>
+
+    <fragment
+        android:id="@+id/navigation_action"
+        android:name="com.navigation.NavigationActionFragment"
+        tools:layout="@layout/fragment_web_view"
+
+        />
+
+</navigation>

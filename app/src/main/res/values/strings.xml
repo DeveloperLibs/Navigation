@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="nav_header_2">Navigation</string>
+    <string name="developer_libs">Developer Libs</string>
+    <string name="jatpack">Jatpack</string>
+    <string name="more">More</string>
+    <string name="go">GO</string>
+</resources>
