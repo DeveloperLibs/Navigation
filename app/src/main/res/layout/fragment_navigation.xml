@@ -19,7 +19,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:inputType="textPersonName"
-        android:text="https://www.developerlibs.com/2018/05/android-whats-new-in-android-p.html"
+        android:text="https://www.developerlibs.com/2019/01/android-jetpack-navigation-architecture.html"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
