@@ -2,6 +2,7 @@
 
 Jetpack Navigation Architecture –  Google has introduced Navigation Architecture Component that combined with support for navigation graphs in Android Studio 3.2.. [Read me here](https://www.developerlibs.com/2019/01/android-jetpack-navigation-architecture.html)
 
+[Google Play Store](https://play.google.com/store/apps/details?id=com.devlibs.developerlibs) ,
 [YouTube](https://youtu.be/jXJGbMDbzVc) ,
 [Facebook](https://www.facebook.com/developerlibs), 
 [G+](https://plus.google.com/109457600203481575432),
